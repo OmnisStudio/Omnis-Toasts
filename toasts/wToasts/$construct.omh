@@ -1,0 +1,17 @@
+# Enter your initialization code here
+
+Do iToastPositions.$define(iToastPosition)
+Do iToastPositions.$add(kToastStackTopLeft)
+Do iToastPositions.$add(kToastStackBottomLeft)
+Do iToastPositions.$add(kToastStackTopRight)
+Do iToastPositions.$add(kToastStackBottomRight)
+Do iToastPositions.$line.$assign(1)
+
+Do iToastTypes.$define(iToastType)
+Do iToastTypes.$add(kToastError)
+Do iToastTypes.$add(kToastInformation)
+Do iToastTypes.$add(kToastSuccess)
+Do iToastTypes.$add(kToastWarning)
+
+Do iToastTypes.$line.$assign(1)
+Do method getToastDefaults

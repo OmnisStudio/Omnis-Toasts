@@ -1,0 +1,16 @@
+Do iToastTypes.$loadcols()
+
+Switch iToastType
+	Case kToastSuccess
+		Calculate iToastTitle as "Success"
+		Calculate iMessage as "Congratulations. Logon complete."
+	Case kToastError
+		Calculate iToastTitle as "Error"
+		Calculate iMessage as "Sorry your details are incorrect. Please try again."
+	Case kToastWarning
+		Calculate iToastTitle as "Warning"
+		Calculate iMessage as "Please check your settings"
+	Case kToastInformation
+		Calculate iToastTitle as "Information"
+		Calculate iMessage as "Great news. All forms have been successfully submitted."
+End Switch
